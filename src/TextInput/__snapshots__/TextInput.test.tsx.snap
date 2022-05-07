@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date Input 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="body-3 text-text-input-label"
+      htmlFor="7c874de0-1d51-11ea-b576-0b857b03a511"
+      id="7c874de0-1d51-11ea-b576-0b857b03a511-label"
+    >
+      Date Input
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="7c874de0-1d51-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter date here"
+      type="date"
+    />
+  </div>
+</div>
+`;
+
+exports[`Email Input 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="text-label-required body-3 text-text-input-label"
+      htmlFor="76487d00-1d51-11ea-b576-0b857b03a511"
+      id="76487d00-1d51-11ea-b576-0b857b03a511-label"
+    >
+      Email Input
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="76487d00-1d51-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter email here"
+      required={true}
+      type="email"
+    />
+  </div>
+</div>
+`;
+
+exports[`Number Input in increments of 5 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="body-3 text-text-input-label"
+      htmlFor="c4eec400-1d51-11ea-b576-0b857b03a511"
+      id="c4eec400-1d51-11ea-b576-0b857b03a511-label"
+    >
+      Number Input in increments of 5
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="c4eec400-1d51-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter a number here"
+      step="5"
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`Number Input in increments of 5 2`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="body-3 text-text-input-label"
+      htmlFor="c4eec400-1d51-11ea-b576-0b857b03a511"
+      id="c4eec400-1d51-11ea-b576-0b857b03a511-label"
+    >
+      Number Input in increments of 5
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="c4eec400-1d51-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter a number here"
+      step="5"
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`Number Input with min and max 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="body-3 text-text-input-label"
+      htmlFor="da77eb30-1d51-11ea-b576-0b857b03a511"
+      id="da77eb30-1d51-11ea-b576-0b857b03a511-label"
+    >
+      Number Input with min and max
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="da77eb30-1d51-11ea-b576-0b857b03a511"
+      max="10"
+      min="1"
+      onChange={[Function]}
+      placeholder="Enter a number between 1 and 10"
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`Password input with pattern validation 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="text-label-required body-3 text-text-input-label"
+      htmlFor="7e60c050-2d8d-11ea-beb5-b512248c9f49"
+      id="7e60c050-2d8d-11ea-beb5-b512248c9f49-label"
+    >
+      Password Input
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="7e60c050-2d8d-11ea-beb5-b512248c9f49"
+      onChange={[Function]}
+      pattern="(?=.*\\\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+      placeholder="Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+      required={true}
+      type="password"
+    />
+  </div>
+</div>
+`;
+
+exports[`Required Text Input 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="text-label-required body-3 text-text-input-label"
+      htmlFor="e20ea460-1d24-11ea-b576-0b857b03a511"
+      id="e20ea460-1d24-11ea-b576-0b857b03a511-label"
+    >
+      Required Text Input
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="e20ea460-1d24-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter text here"
+      required={true}
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Telephone Input 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="body-3 text-text-input-label"
+      htmlFor="f12ea070-1d52-11ea-b576-0b857b03a511"
+      id="f12ea070-1d52-11ea-b576-0b857b03a511-label"
+    >
+      Mobile Number
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="f12ea070-1d52-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+      placeholder="Enter phone number here in xxx-xxx-xxxx format"
+      type="tel"
+    />
+  </div>
+</div>
+`;
+
+exports[`Text Input with max length 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="body-3 text-text-input-label"
+      htmlFor="b279e1b0-1d51-11ea-b576-0b857b03a511"
+      id="b279e1b0-1d51-11ea-b576-0b857b03a511-label"
+    >
+      Text Input with max length
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="b279e1b0-1d51-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter text here"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`Time Input 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="body-3 text-text-input-label"
+      htmlFor="9690bb20-1d53-11ea-b576-0b857b03a511"
+      id="9690bb20-1d53-11ea-b576-0b857b03a511-label"
+    >
+      Time Input
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="9690bb20-1d53-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter time here"
+      type="time"
+    />
+  </div>
+</div>
+`;
+
+exports[`clean all button 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="body-3 text-text-input-label"
+      htmlFor="9690bb20-1d53-11ea-b576-0b857b03a511"
+      id="9690bb20-1d53-11ea-b576-0b857b03a511-label"
+    >
+      Time Input
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className="pr-6"
+      id="9690bb20-1d53-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter time here"
+      type="time"
+    />
+  </div>
+</div>
+`;
+
+exports[`validate in the input 1`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="label-error body-3 text-text-input-label"
+      htmlFor="9690bb20-1d53-11ea-b576-0b857b03a511"
+      id="9690bb20-1d53-11ea-b576-0b857b03a511-label"
+    >
+      Time Input
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className="text-input-error"
+      id="9690bb20-1d53-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter time here"
+      type="time"
+    />
+    <i
+      className="icon-error-circle text-lg validateIcon text-text-red"
+    />
+  </div>
+</div>
+`;
+
+exports[`validate in the input 2`] = `
+<div
+  className="text-text-input body-2"
+  tabIndex={-1}
+>
+  <div
+    className="flex flex-row justify-between"
+  >
+    <label
+      className="body-3 text-text-input-label"
+      htmlFor="9690bb20-1d53-11ea-b576-0b857b03a511"
+      id="9690bb20-1d53-11ea-b576-0b857b03a511-label"
+    >
+      Time Input
+    </label>
+  </div>
+  <div
+    className="text-input-inner"
+  >
+    <input
+      className=""
+      id="9690bb20-1d53-11ea-b576-0b857b03a511"
+      onChange={[Function]}
+      placeholder="Enter time here"
+      type="time"
+    />
+    <i
+      className="icon-check text-lg validateIcon text-text-green"
+    />
+  </div>
+</div>
+`;
